@@ -47,24 +47,29 @@ export default function HomePage() {
         og øke kundetilfredshet.
       </P>
 
+      <hr className="my-5" />
       <div className="director">
         <Image src="/logo.jpeg" alt="Logo" width={100} height={100} />
       </div>
 
       <div className="practical-info">
-        <h2>Praktisk informasjon</h2>
-        <p>
+        <H2>Praktisk informasjon</H2>
+        <P>
           <strong>Sted:</strong> Lindås, Norge
-        </p>
-        <p>
+        </P>
+        <P>
           <strong>Dato og tid:</strong> 27. juli, 13:00 - 02:00
-        </p>
-        <p>
+        </P>
+        <P>
           <strong>Se beliggenhet:</strong>{" "}
-          <a href="https://maps.app.goo.gl/5toNZuZCRHpSjKZd8" target="_blank">
+          <a
+            className="underline"
+            href="https://maps.app.goo.gl/5toNZuZCRHpSjKZd8"
+            target="_blank"
+          >
             Google Maps
           </a>
-        </p>
+        </P>
       </div>
     </div>
   );
